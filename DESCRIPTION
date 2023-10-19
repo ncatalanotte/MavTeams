@@ -1,0 +1,15 @@
+Package: MavTeams
+Title: Webhook Communication Tools for Microsoft Teams
+Version: 0.0.0.9000
+Authors@R: 
+    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: A utility package for sending formatted MessageCards to webhooks, 
+    designed for platforms like Microsoft Teams. Allows users to set a webhook URL 
+    and send messages with specified titles, subtitles, and body content.
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Imports: jsonlite,httr
